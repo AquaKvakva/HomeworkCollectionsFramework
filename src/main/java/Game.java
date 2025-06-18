@@ -29,7 +29,7 @@ public class Game {
             throw new NotRegisteredException(playerName2);
         }
 
-        if (player1.getStrength() > player2.getStrength()){
+        if (player1.getStrength() > player2.getStrength()) {
             return 1;
         } else if (player1.getStrength() < player2.getStrength()) {
             return 2;
